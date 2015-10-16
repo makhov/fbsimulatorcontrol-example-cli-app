@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA645D31BD1039800582409 /* FBSimulatorControl in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA645D21BD1039800582409 /* FBSimulatorControl */; };
+		ADA645D51BD103C200582409 /* FBSimulatorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA645D41BD103C200582409 /* FBSimulatorControl.framework */; };
+		CAC5C9A455489C5D6997EBD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC5CE3F70A71077E7F48339 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAC5C64B2807E248C05564AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ADA645D01BD1038500582409 /* FBSimulatorControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSimulatorControl.framework; sourceTree = "<group>"; };
+		ADA645D21BD1039800582409 /* FBSimulatorControl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FBSimulatorControl; sourceTree = "<group>"; };
+		ADA645D41BD103C200582409 /* FBSimulatorControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSimulatorControl.framework; path = "../../Library/Developer/Xcode/DerivedData/fbsimulatorcontrol-example-cli-app-fpoyyfxtqmnttkfaidvyuigwdita/Build/Products/Debug/FBSimulatorControl.framework"; sourceTree = "<group>"; };
+		CAC5C814B75F0F89D7FACBFA /* fbsimulatorcontrol-example-cli-app */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fbsimulatorcontrol-example-cli-app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC5CE3F70A71077E7F48339 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC5CAC447CC528A02B0E92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA645D51BD103C200582409 /* FBSimulatorControl.framework in Frameworks */,
+				ADA645D31BD1039800582409 /* FBSimulatorControl in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC5C121CED37682E4F84FE7 = {
+			isa = PBXGroup;
+			children = (
+				ADA645D41BD103C200582409 /* FBSimulatorControl.framework */,
+				ADA645D21BD1039800582409 /* FBSimulatorControl */,
+				ADA645D01BD1038500582409 /* FBSimulatorControl.framework */,
+				CAC5C7E1D6884174496AE7FF /* Products */,
+				CAC5C463C28F643614818C3D /* fbsimulatorcontrol-example-cli-app */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC5C463C28F643614818C3D /* fbsimulatorcontrol-example-cli-app */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5CE3F70A71077E7F48339 /* main.m */,
+			);
+			path = "fbsimulatorcontrol-example-cli-app";
+			sourceTree = "<group>";
+		};
+		CAC5C7E1D6884174496AE7FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5C814B75F0F89D7FACBFA /* fbsimulatorcontrol-example-cli-app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC5C72B19FFEEF5206C1CF6 /* fbsimulatorcontrol-example-cli-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC5C126F4AA18D161B84D63 /* Build configuration list for PBXNativeTarget "fbsimulatorcontrol-example-cli-app" */;
+			buildPhases = (
+				CAC5CF91B885254030EF8A87 /* Sources */,
+				CAC5CAC447CC528A02B0E92B /* Frameworks */,
+				CAC5C64B2807E248C05564AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fbsimulatorcontrol-example-cli-app";
+			productName = "fbsimulatorcontrol-example-cli-app";
+			productReference = CAC5C814B75F0F89D7FACBFA /* fbsimulatorcontrol-example-cli-app */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC5C1633D1F0932DAF54039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Avito;
+			};
+			buildConfigurationList = CAC5CB17EF20878C9DBC4429 /* Build configuration list for PBXProject "fbsimulatorcontrol-example-cli-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAC5C121CED37682E4F84FE7;
+			productRefGroup = CAC5C7E1D6884174496AE7FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC5C72B19FFEEF5206C1CF6 /* fbsimulatorcontrol-example-cli-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC5CF91B885254030EF8A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC5C9A455489C5D6997EBD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAC5C482DA31D16FCDCCB78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAC5C4EBD4830BADEB230C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/\"/**",
+					"$(PROJECT_DIR)/FBSimulatorControl/build/Debug",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/fbsimulatorcontrol-example-cli-app-fpoyyfxtqmnttkfaidvyuigwdita/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "fbsimulatorcontrol-example-cli-app";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../FBSimulatorControl\"/**";
+			};
+			name = Debug;
+		};
+		CAC5C744B0B3CC5C978A65CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/\"/**",
+					"$(PROJECT_DIR)/FBSimulatorControl/build/Debug",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/fbsimulatorcontrol-example-cli-app-fpoyyfxtqmnttkfaidvyuigwdita/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "fbsimulatorcontrol-example-cli-app";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../FBSimulatorControl\"/**";
+			};
+			name = Release;
+		};
+		CAC5C95E82BC39D5BE5E7173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC5C126F4AA18D161B84D63 /* Build configuration list for PBXNativeTarget "fbsimulatorcontrol-example-cli-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC5C4EBD4830BADEB230C48 /* Debug */,
+				CAC5C744B0B3CC5C978A65CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC5CB17EF20878C9DBC4429 /* Build configuration list for PBXProject "fbsimulatorcontrol-example-cli-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC5C482DA31D16FCDCCB78B /* Debug */,
+				CAC5C95E82BC39D5BE5E7173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC5C1633D1F0932DAF54039 /* Project object */;
+}
