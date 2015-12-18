@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADA645D31BD1039800582409 /* FBSimulatorControl in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA645D21BD1039800582409 /* FBSimulatorControl */; };
-		ADA645D51BD103C200582409 /* FBSimulatorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA645D41BD103C200582409 /* FBSimulatorControl.framework */; };
+		AD6335D21C23ECD000B59231 /* FBSimulatorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA645D01BD1038500582409 /* FBSimulatorControl.framework */; };
+		AD6335D31C23ECDA00B59231 /* FBSimulatorControl in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA645D21BD1039800582409 /* FBSimulatorControl */; };
 		CAC5C9A455489C5D6997EBD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC5CE3F70A71077E7F48339 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -25,9 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD6335D01C23EC5B00B59231 /* FBSimulatorControl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FBSimulatorControl; path = FBSimulatorControl/FBSimulatorControl; sourceTree = "<group>"; };
 		ADA645D01BD1038500582409 /* FBSimulatorControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSimulatorControl.framework; sourceTree = "<group>"; };
 		ADA645D21BD1039800582409 /* FBSimulatorControl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FBSimulatorControl; sourceTree = "<group>"; };
-		ADA645D41BD103C200582409 /* FBSimulatorControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSimulatorControl.framework; path = "../../Library/Developer/Xcode/DerivedData/fbsimulatorcontrol-example-cli-app-fpoyyfxtqmnttkfaidvyuigwdita/Build/Products/Debug/FBSimulatorControl.framework"; sourceTree = "<group>"; };
 		CAC5C814B75F0F89D7FACBFA /* fbsimulatorcontrol-example-cli-app */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fbsimulatorcontrol-example-cli-app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC5CE3F70A71077E7F48339 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,8 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA645D51BD103C200582409 /* FBSimulatorControl.framework in Frameworks */,
-				ADA645D31BD1039800582409 /* FBSimulatorControl in Frameworks */,
+				AD6335D31C23ECDA00B59231 /* FBSimulatorControl in Frameworks */,
+				AD6335D21C23ECD000B59231 /* FBSimulatorControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 		CAC5C121CED37682E4F84FE7 = {
 			isa = PBXGroup;
 			children = (
-				ADA645D41BD103C200582409 /* FBSimulatorControl.framework */,
+				AD6335D01C23EC5B00B59231 /* FBSimulatorControl */,
 				ADA645D21BD1039800582409 /* FBSimulatorControl */,
 				ADA645D01BD1038500582409 /* FBSimulatorControl.framework */,
 				CAC5C7E1D6884174496AE7FF /* Products */,
